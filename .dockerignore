@@ -1,0 +1,10 @@
+.git
+work
+jobs
+models
+.venv
+.venv-mlx
+docs
+README.md
+SKILL.md
+AGENTS.md

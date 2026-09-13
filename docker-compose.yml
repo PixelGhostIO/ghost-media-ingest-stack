@@ -1,0 +1,18 @@
+services:
+  ingest:
+    build: .
+    image: ghost-media-ingest:local
+    volumes:
+      - ./jobs:/jobs
+      - ./models:/models
+      - ./scripts:/app/scripts:ro
+      - ./prompts:/app/prompts:ro
+    working_dir: /jobs
+    environment:
+      GHOST_JOBS: /jobs
+      GHOST_WORK: /jobs
+      GHOST_MODELS: /models
+      GHOST_WHISPER_MODEL: ${GHOST_WHISPER_MODEL:-ggml-base.en.bin}
+    # Usage:
+    #   docker compose run --rm ingest 'https://www.youtube.com/watch?v=…'
+    #   docker compose run --rm ingest smoke easy

@@ -1,0 +1,792 @@
+{
+  "easy": {
+    "wav": "fixtures/gold.wav",
+    "gold": "fixtures/gold.txt",
+    "lang": "en",
+    "task": "transcribe",
+    "entities": [
+      {
+        "id": "widgetcorp",
+        "hit": [
+          "widgetcorp"
+        ],
+        "near": [
+          "widget corp",
+          "widget co"
+        ]
+      },
+      {
+        "id": "foobar",
+        "hit": [
+          "foobar"
+        ],
+        "near": [
+          "foo bar",
+          "fubar"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "pangram",
+        "any": [
+          "quick brown fox",
+          "jumps over the lazy dog"
+        ]
+      },
+      {
+        "id": "widgetcorp",
+        "any": [
+          "widgetcorp"
+        ]
+      },
+      {
+        "id": "foobar",
+        "any": [
+          "foobar"
+        ]
+      },
+      {
+        "id": "apple",
+        "any": [
+          "apple silicon",
+          "apple"
+        ]
+      },
+      {
+        "id": "protocol",
+        "any": [
+          "protocol"
+        ]
+      }
+    ]
+  },
+  "medium": {
+    "wav": "jobs/_smoke/medium/PeMlggyqz0Y/source/audio.wav",
+    "lang": "en",
+    "task": "transcribe",
+    "entities": [
+      {
+        "id": "arthur_samuel",
+        "hit": [
+          "arthur samuel"
+        ],
+        "near": [
+          "arthur",
+          "samuel"
+        ]
+      },
+      {
+        "id": "ibm",
+        "hit": [
+          "ibm"
+        ],
+        "near": []
+      },
+      {
+        "id": "1959",
+        "hit": [
+          "1959"
+        ],
+        "near": [
+          "1958",
+          "1969"
+        ]
+      },
+      {
+        "id": "convolutional",
+        "hit": [
+          "convolutional"
+        ],
+        "near": [
+          "convolutionary",
+          "convolution"
+        ]
+      },
+      {
+        "id": "python",
+        "hit": [
+          "python"
+        ],
+        "near": []
+      }
+    ],
+    "claims": [
+      {
+        "id": "coined_1959_samuel_ibm",
+        "any": [
+          "1959",
+          "arthur samuel"
+        ]
+      },
+      {
+        "id": "two_jobs",
+        "any": [
+          "classify",
+          "classification"
+        ]
+      },
+      {
+        "id": "train_test",
+        "any": [
+          "training set",
+          "training data"
+        ]
+      },
+      {
+        "id": "languages",
+        "any": [
+          "julia"
+        ]
+      },
+      {
+        "id": "model_file",
+        "any": [
+          "the end result",
+          "end result of the machine learning"
+        ]
+      }
+    ]
+  },
+  "hard-broadcast": {
+    "wav": "jobs/_smoke/hard/i8NETqtGHms/source/audio.wav",
+    "lang": "en",
+    "task": "transcribe",
+    "entities": [
+      {
+        "id": "tensorflow",
+        "hit": [
+          "tensorflow"
+        ],
+        "near": [
+          "tensor flow"
+        ]
+      },
+      {
+        "id": "google_brain",
+        "hit": [
+          "google brain"
+        ],
+        "near": [
+          "google"
+        ]
+      },
+      {
+        "id": "2015",
+        "hit": [
+          "2015"
+        ],
+        "near": [
+          "2014",
+          "2016"
+        ]
+      },
+      {
+        "id": "tflite",
+        "hit": [
+          "tensorflow lite"
+        ],
+        "near": [
+          "tf lite"
+        ]
+      },
+      {
+        "id": "fashion_mnist",
+        "hit": [
+          "fashion mnist"
+        ],
+        "near": [
+          "fash and mnist",
+          "fashion-mnist",
+          "mnist"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "google_brain_2015",
+        "any": [
+          "2015"
+        ]
+      },
+      {
+        "id": "tensor_def",
+        "any": [
+          "multidimensional array",
+          "multi-dimensional array",
+          "linear algebra"
+        ]
+      },
+      {
+        "id": "lite_or_js",
+        "any": [
+          "tensorflow lite",
+          "tensorflow.js",
+          "tensorflow js"
+        ]
+      },
+      {
+        "id": "industry",
+        "any": [
+          "paypal",
+          "spotify",
+          "twitter"
+        ]
+      },
+      {
+        "id": "clothing",
+        "any": [
+          "clothing",
+          "fashion"
+        ]
+      }
+    ]
+  },
+  "translate": {
+    "wav": "fixtures/translate/es/audio.wav",
+    "gold": "fixtures/translate/es/gold.en.txt",
+    "lang": "es",
+    "task": "translate",
+    "entities": [
+      {
+        "id": "human_beings",
+        "hit": [
+          "human beings",
+          "all human"
+        ],
+        "near": [
+          "humans",
+          "seres humanos"
+        ]
+      },
+      {
+        "id": "dignity",
+        "hit": [
+          "dignity"
+        ],
+        "near": [
+          "dignidad"
+        ]
+      },
+      {
+        "id": "rights",
+        "hit": [
+          "rights"
+        ],
+        "near": [
+          "derechos"
+        ]
+      },
+      {
+        "id": "reason",
+        "hit": [
+          "reason"
+        ],
+        "near": [
+          "razon",
+          "raz\u00f3n"
+        ]
+      },
+      {
+        "id": "brotherhood",
+        "hit": [
+          "brotherhood",
+          "spirit of brotherhood"
+        ],
+        "near": [
+          "fraternal",
+          "fraternalmente"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "born_free_equal",
+        "any": [
+          "born free",
+          "free and equal"
+        ]
+      },
+      {
+        "id": "dignity_rights",
+        "any": [
+          "dignity and rights",
+          "dignity"
+        ]
+      },
+      {
+        "id": "reason_conscience",
+        "any": [
+          "reason and conscience",
+          "conscience"
+        ]
+      },
+      {
+        "id": "one_another",
+        "any": [
+          "one another",
+          "towards one another"
+        ]
+      },
+      {
+        "id": "english_not_spanish",
+        "any": [
+          "human beings"
+        ]
+      }
+    ]
+  },
+  "translate-es": {
+    "wav": "fixtures/translate/es/audio.wav",
+    "gold": "fixtures/translate/es/gold.en.txt",
+    "lang": "es",
+    "task": "translate",
+    "leak_phrases": [
+      "seres humanos",
+      "dignidad y derechos",
+      "fraternalmente"
+    ],
+    "entities": [
+      {
+        "id": "human_beings",
+        "hit": [
+          "human beings",
+          "all human"
+        ],
+        "near": [
+          "humans"
+        ]
+      },
+      {
+        "id": "dignity",
+        "hit": [
+          "dignity"
+        ],
+        "near": [
+          "dignidad"
+        ]
+      },
+      {
+        "id": "rights",
+        "hit": [
+          "rights"
+        ],
+        "near": [
+          "derechos"
+        ]
+      },
+      {
+        "id": "reason",
+        "hit": [
+          "reason"
+        ],
+        "near": [
+          "razon",
+          "raz\u00f3n"
+        ]
+      },
+      {
+        "id": "brotherhood",
+        "hit": [
+          "brotherhood",
+          "spirit of brotherhood"
+        ],
+        "near": [
+          "fraternal"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "born_free_equal",
+        "any": [
+          "born free",
+          "free and equal"
+        ]
+      },
+      {
+        "id": "dignity_rights",
+        "any": [
+          "dignity and rights",
+          "dignity"
+        ]
+      },
+      {
+        "id": "reason_conscience",
+        "any": [
+          "reason and conscience",
+          "conscience"
+        ]
+      },
+      {
+        "id": "one_another",
+        "any": [
+          "one another",
+          "towards one another"
+        ]
+      },
+      {
+        "id": "english_not_source",
+        "any": [
+          "human beings"
+        ]
+      }
+    ]
+  },
+  "translate-fr": {
+    "wav": "fixtures/translate/fr/audio.wav",
+    "gold": "fixtures/translate/fr/gold.en.txt",
+    "lang": "fr",
+    "task": "translate",
+    "leak_phrases": [
+      "\u00eatres humains",
+      "naissent",
+      "fraternit\u00e9"
+    ],
+    "entities": [
+      {
+        "id": "human_beings",
+        "hit": [
+          "human beings",
+          "all human"
+        ],
+        "near": [
+          "humans"
+        ]
+      },
+      {
+        "id": "dignity",
+        "hit": [
+          "dignity"
+        ],
+        "near": []
+      },
+      {
+        "id": "rights",
+        "hit": [
+          "rights"
+        ],
+        "near": []
+      },
+      {
+        "id": "reason",
+        "hit": [
+          "reason"
+        ],
+        "near": []
+      },
+      {
+        "id": "brotherhood",
+        "hit": [
+          "brotherhood",
+          "spirit of brotherhood"
+        ],
+        "near": [
+          "fraternity",
+          "fraternal"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "born_free_equal",
+        "any": [
+          "born free",
+          "free and equal"
+        ]
+      },
+      {
+        "id": "dignity_rights",
+        "any": [
+          "dignity and rights",
+          "dignity"
+        ]
+      },
+      {
+        "id": "reason_conscience",
+        "any": [
+          "reason and conscience",
+          "conscience"
+        ]
+      },
+      {
+        "id": "one_another",
+        "any": [
+          "one another",
+          "towards one another"
+        ]
+      },
+      {
+        "id": "english_not_source",
+        "any": [
+          "human beings"
+        ]
+      }
+    ]
+  },
+  "translate-zh": {
+    "wav": "fixtures/translate/zh/audio.wav",
+    "gold": "fixtures/translate/zh/gold.en.txt",
+    "lang": "auto",
+    "task": "translate",
+    "leak_scripts": [
+      "cjk"
+    ],
+    "entities": [
+      {
+        "id": "human_beings",
+        "hit": [
+          "human beings",
+          "all human"
+        ],
+        "near": [
+          "humans"
+        ]
+      },
+      {
+        "id": "dignity",
+        "hit": [
+          "dignity"
+        ],
+        "near": []
+      },
+      {
+        "id": "rights",
+        "hit": [
+          "rights"
+        ],
+        "near": []
+      },
+      {
+        "id": "reason",
+        "hit": [
+          "reason"
+        ],
+        "near": []
+      },
+      {
+        "id": "brotherhood",
+        "hit": [
+          "brotherhood",
+          "spirit of brotherhood"
+        ],
+        "near": [
+          "fraternal"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "born_free_equal",
+        "any": [
+          "born free",
+          "free and equal"
+        ]
+      },
+      {
+        "id": "dignity_rights",
+        "any": [
+          "dignity and rights",
+          "dignity"
+        ]
+      },
+      {
+        "id": "reason_conscience",
+        "any": [
+          "reason and conscience",
+          "conscience"
+        ]
+      },
+      {
+        "id": "one_another",
+        "any": [
+          "one another",
+          "towards one another"
+        ]
+      },
+      {
+        "id": "english_not_source",
+        "any": [
+          "human beings"
+        ]
+      }
+    ]
+  },
+  "translate-hi": {
+    "wav": "fixtures/translate/hi/audio.wav",
+    "gold": "fixtures/translate/hi/gold.en.txt",
+    "lang": "hi",
+    "task": "translate",
+    "leak_scripts": [
+      "devanagari"
+    ],
+    "entities": [
+      {
+        "id": "human_beings",
+        "hit": [
+          "human beings",
+          "all human"
+        ],
+        "near": [
+          "humans"
+        ]
+      },
+      {
+        "id": "dignity",
+        "hit": [
+          "dignity"
+        ],
+        "near": []
+      },
+      {
+        "id": "rights",
+        "hit": [
+          "rights"
+        ],
+        "near": []
+      },
+      {
+        "id": "reason",
+        "hit": [
+          "reason"
+        ],
+        "near": []
+      },
+      {
+        "id": "brotherhood",
+        "hit": [
+          "brotherhood",
+          "spirit of brotherhood"
+        ],
+        "near": [
+          "fraternal"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "born_free_equal",
+        "any": [
+          "born free",
+          "free and equal"
+        ]
+      },
+      {
+        "id": "dignity_rights",
+        "any": [
+          "dignity and rights",
+          "dignity"
+        ]
+      },
+      {
+        "id": "reason_conscience",
+        "any": [
+          "reason and conscience",
+          "conscience"
+        ]
+      },
+      {
+        "id": "one_another",
+        "any": [
+          "one another",
+          "towards one another"
+        ]
+      },
+      {
+        "id": "english_not_source",
+        "any": [
+          "human beings"
+        ]
+      }
+    ]
+  },
+  "translate-en": {
+    "wav": "fixtures/translate/en/audio.wav",
+    "gold": "fixtures/translate/en/gold.en.txt",
+    "lang": "en",
+    "task": "translate",
+    "leak_scripts": [
+      "cjk",
+      "devanagari"
+    ],
+    "entities": [
+      {
+        "id": "human_beings",
+        "hit": [
+          "human beings",
+          "all human"
+        ],
+        "near": [
+          "humans"
+        ]
+      },
+      {
+        "id": "dignity",
+        "hit": [
+          "dignity"
+        ],
+        "near": []
+      },
+      {
+        "id": "rights",
+        "hit": [
+          "rights"
+        ],
+        "near": []
+      },
+      {
+        "id": "reason",
+        "hit": [
+          "reason"
+        ],
+        "near": []
+      },
+      {
+        "id": "brotherhood",
+        "hit": [
+          "brotherhood",
+          "spirit of brotherhood"
+        ],
+        "near": [
+          "fraternal"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "born_free_equal",
+        "any": [
+          "born free",
+          "free and equal"
+        ]
+      },
+      {
+        "id": "dignity_rights",
+        "any": [
+          "dignity and rights",
+          "dignity"
+        ]
+      },
+      {
+        "id": "reason_conscience",
+        "any": [
+          "reason and conscience",
+          "conscience"
+        ]
+      },
+      {
+        "id": "one_another",
+        "any": [
+          "one another",
+          "towards one another"
+        ]
+      },
+      {
+        "id": "english_not_source",
+        "any": [
+          "human beings"
+        ]
+      }
+    ]
+  }
+}

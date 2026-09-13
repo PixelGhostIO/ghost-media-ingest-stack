@@ -1,0 +1,38 @@
+# runtime (generated)
+jobs/
+work/
+models/
+.venv/
+.venv-mlx/
+cookies.txt
+**/cookies.txt
+
+# caches / editor
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+*.pyc
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.cache/
+.mypy_cache/
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.cursor/
+
+# secrets / local env
+.env
+.env.*
+.envrc
+*.pem
+*.key
+*.secret
+*.log
+
+# local tool output
+.grok/
