@@ -38,6 +38,7 @@ Then the agent fills `analysis/context.md`, `meaning.md`, `intent.md` ([prompts/
 
 | File | What |
 |---|---|
+| [INSTALL_FOR_AGENTS.md](INSTALL_FOR_AGENTS.md) | agent install (mutating; stop at smoke easy) |
 | [docs/pipeline.md](docs/pipeline.md) | stages, env, failures |
 | [docs/docker.md](docs/docker.md) | image, volumes, smoke |
 | [docs/outputs.md](docs/outputs.md) | job tree + MANIFEST |

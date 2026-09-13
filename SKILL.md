@@ -15,7 +15,7 @@ mutating: false
 
 # ghost-media-ingest
 
-On a Mac, run ingest on the **host** (Homebrew ffmpeg + Metal `whisper-cli`). Docker is the portable CPU fallback. You write analysis. Pipeline details: `docs/pipeline.md`.
+On a Mac, run ingest on the **host** (Homebrew ffmpeg + Metal `whisper-cli`). Docker is the portable CPU fallback. You write analysis. Pipeline details: `docs/pipeline.md`. Binaries missing → `INSTALL_FOR_AGENTS.md`. Do not brew/pip from this skill.
 
 ## Contract
 
